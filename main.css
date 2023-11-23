@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ca;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Heading style*/
+h1 {
+  color: #1e8443    
+}
+
+/*Input button style*/
+#plantInput {   
+    padding: 10px;
+    width: 200px;
+    margin: 10px;  
+}
+
+#PlantButton {
+    padding: 10px 10px;
+    background-color: #1e8443;
+    color: white;
+    border: thin 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    cursor: pointer;
+}
+
+#PlantButton:hover {
+  background-color:#1e9443 
+}
+
+/*Garden and plants style*/
+#garden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.plant {
+    background-color: #1e9443;
+    color: white;
+    padding: 18px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 50px;
+}
+
+.plant:hover {
+    background-color: #007700;
+}
+
+/*Increase emoji size*/
+.emoji {
+font-size:3em;
+}
